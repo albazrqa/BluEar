@@ -2,6 +2,9 @@
  Practical Bluetooth Traffic Sniffing: Systems and Privacy Implications
 
 
+# Cite this work
+Please cite this work as follows:
+
 BibTex
 -------
 [Click here please](https://github.com/albazrqa/BluEar/blob/master/BibTex)
