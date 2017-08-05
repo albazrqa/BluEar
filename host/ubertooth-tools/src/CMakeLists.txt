@@ -1,7 +1,7 @@
 #
-# Copyright 2013 Dominic Spill
+# Copyright 2016 Wahhab Albazrqaoe
 #
-# This file is part of Ubertooth
+# This file is part of BlueEar Project.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -18,7 +18,6 @@
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
 #
-
 # Based heavily upon the hackrf cmake setup.
 
 find_package(BTBB REQUIRED)
@@ -53,8 +52,6 @@ if(MSVC)
 	LIST(APPEND TOOLS_LINK_LIBS libgetopt_static)
 endif()
 
-#LIST(APPEND TOOLS ubertooth-rx ubertooth-dump ubertooth-util ubertooth-btle)
-#LIST(APPEND TOOLS ubertooth-rx ubertooth-rx_ADPTV2 ubertooth-rx_BASIC1 ubertooth-rx_AFH_CHK ubertooth-rx_AFH_ALL1 ubertooth-rx_AFH1 ubertooth-rx_AFH2 ubertooth-dump ubertooth-util ubertooth-btle)
 
 LIST(APPEND TOOLS ubertooth-rx ubertooth-dump ubertooth-specan ubertooth-rx_BASIC0 ubertooth-rx_AFH_EST_9 ubertooth-rx_ADPTV4 ubertooth-rx_BASIC4)
 

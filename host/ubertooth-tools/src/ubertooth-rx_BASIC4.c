@@ -1,7 +1,7 @@
 /*
- * Copyright 2010, 2011 Michael Ossmann
+ * Copyright 2016 Wahhab Albazrqaoe
  *
- * This file is part of Project Ubertooth.
+ * This file is part of Project BlueEar.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,38 +24,9 @@
 #include <signal.h>
 #include <stdlib.h>
 
-//uint32_t address = 0x2a96ef25;
-//uint32_t address = 0xdc065d23;
-//uint32_t address = 0xdc06c0b3;
-//uint32_t address = 0xdc0662ef;
-//uint32_t address = 0x72c6653b;
-//uint32_t address = 0x723397d3;
-//uint32_t address = 0x72339685;
-//uint32_t address = 0x72c61600;
-//uint32_t address = 0xF889A175;
-//uint32_t address = 0x72c66a0a;
-//uint32_t address = 0x723397d3;
-//uint32_t address = 0x01F3E10A;
-//uint32_t address = 0xDC065D7F;
-//uint32_t address = 0x72C62E7E;
 const uint32_t address = 0x6AFE2C6F;
-//uint32_t address = 0x72C66A2D;
-//uint32_t address2 = 0xACE857F0;
-//uint32_t address = 0xDC0662EF;
-//#define address  0xDC065D58
-//const uint32_t address = 0xDC065D58;
-//uint32_t address = 0x72C669FD;
-//uint32_t address = 0x72C613E2;
-//uint32_t address = 0x7223B0D8;
-//uint32_t address = 0x72C669E2;
-//uint32_t address = 0x72C66A1C;
-//uint32_t address = 0x72C66A11;
-//uint32_t address = 0x72C66A0E;
-//uint32_t address = 0x6AFE334B;
-//const uint32_t address = 0x6AFE2F40;
-//uint32_t address = 0x72C66A54;
-//uint32_t address = 0xDD6C88A3;// Mouse
-//uint32_t address = 0x72C61604;
+
+
 #define LISTEN_ON_CH 39
 
 static void usage()
@@ -99,17 +70,6 @@ int main(int argc, char *argv[])
 
 	struct ShMemory2 *ShmPTR_B = _Get_Shmem2_ (CREATE_SHMEM2, 'B');
 
-//	int shift;
-//	for ( shift = 0; shift < 8; shift++ )
-//	{
-////			printf ( "%016"PRIx64 ", %016"PRIx64 " \n",  p1 [ 0 ], p_info->reversed1 [ shift ]   );
-//		{	
-//			printf ( "%016"PRIx64 ", %016"PRIx64 " \n",  
-//				pico_info.air_order_syncword [ shift ] ,  0x00ffffffffffffff & pico_info.reversed_syncword   );
-//
-//		}
-//	}
-//goto out;
 
 	stream_rx_usb_ONECH ( devh, ShmPTR,  &pico_info, XFER_LEN, 0);
 
