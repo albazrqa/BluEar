@@ -4,7 +4,7 @@
 
 BibTex
 -------
-(See) (See) [https://github.com/albazrqa/BluEar/blob/master/BibTex]
+[Click here please](https://github.com/albazrqa/BluEar/blob/master/BibTex)
 
 ACM Ref
 -------
