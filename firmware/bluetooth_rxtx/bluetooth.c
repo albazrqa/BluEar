@@ -1,7 +1,7 @@
 /*
- * Copyright 2012 Dominic Spill
+ * Copyright 2016 Wahhab Albazrqaoe
  *
- * This file is part of Project Ubertooth.
+ * This file is part of Project BlueEar.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
