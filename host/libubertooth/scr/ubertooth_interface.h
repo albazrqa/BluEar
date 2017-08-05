@@ -1,8 +1,8 @@
 /*
- * Copyright 2012 Dominic Spill
+ * Copyright 2010-2013 Michael Ossmann, Dominic Spill
  *
  * This file is part of Project Ubertooth.
- *
+ * *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2, or (at your option)

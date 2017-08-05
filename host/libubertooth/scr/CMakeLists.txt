@@ -1,5 +1,7 @@
 #
-# This file is part of Ubertooth.
+# Copyright 2016 Wahhab Albazrqaoe
+#
+# This file is part of BlueEar Project.
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -20,12 +22,9 @@
 
 # Targets
 set(c_sources ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth.c
-#	      ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth4.c
-#	      ${CMAKE_CURRENT_SOURCE_DIR}/bluetooth_packet.c
 	      ${CMAKE_CURRENT_SOURCE_DIR}/afh_est.c
 	      ${CMAKE_CURRENT_SOURCE_DIR}/SHM.c
 	      ${CMAKE_CURRENT_SOURCE_DIR}/SHM2.c
-#	      ${CMAKE_CURRENT_SOURCE_DIR}/SHM3.c
               ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth_control.c
               ${CMAKE_CURRENT_SOURCE_DIR}/svm_hideo.c
               ${CMAKE_CURRENT_SOURCE_DIR}/svm_learn.c
@@ -34,10 +33,7 @@ set(c_sources ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth.c
 set(c_headers 
 		${CMAKE_CURRENT_SOURCE_DIR}/SHM.h
 		${CMAKE_CURRENT_SOURCE_DIR}/SHM2.h
-#		${CMAKE_CURRENT_SOURCE_DIR}/SHM3.h
 	      ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth.h
-#	      ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth4.h
-#	      ${CMAKE_CURRENT_SOURCE_DIR}/bluetooth_packet.h
 	      ${CMAKE_CURRENT_SOURCE_DIR}/afh_est.h
               ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth_control.h
 			  ${CMAKE_CURRENT_SOURCE_DIR}/ubertooth_interface.h
