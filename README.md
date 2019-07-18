@@ -2,7 +2,7 @@
  Practical Bluetooth Traffic Sniffing: Systems and Privacy Implications
 
 
-# Cite this work
+# Citation
 Please cite this work as follows:
 
 - ACM Ref:  
